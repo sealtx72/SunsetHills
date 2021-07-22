@@ -46,3 +46,9 @@ body {
 .cblue {
     color: rgb(0, 114, 221);
 }
+.sunset {
+    color: hsl(37, 100%, 50%);
+}
+.hills {
+    color: rgb(0, 89, 255);
+}
