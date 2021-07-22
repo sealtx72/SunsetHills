@@ -26,3 +26,23 @@ body {
      background-color: #eeeeee;
  }
 
+.bgnav {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.bgnav2 {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.cpurple {
+    color: rgb(59, 7, 59)
+}
+
+.corange {
+    color: rgb(250, 61, 3);
+}
+
+.cblue {
+    color: rgb(0, 114, 221);
+}

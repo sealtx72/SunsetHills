@@ -1,4 +1,4 @@
-let array1 = [3, 2, 4, 7, 6, 9];
+let array1 = [];
 let array2 = [];
 let tallest = 0;
 
