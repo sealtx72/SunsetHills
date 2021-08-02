@@ -62,7 +62,34 @@
                 <div class="col-11 ms-5" id="codeCol">
                     <pre>
                         <code class="language-javascript line-numbers">
+                            //Initialize 2 arrays for comparison
+                            let array1 = [];
+                            let array2 = [];
+                            let tallest = 0;
 
+                            //Assigns each building height to a variable in array1
+                            function sunsetHills() {
+                                array1[0] = Number(document.getElementById("building1").value);
+                                array1[1] = Number(document.getElementById("building2").value);
+                                array1[2] = Number(document.getElementById("building3").value);
+                                array1[3] = Number(document.getElementById("building4").value);
+                                array1[4] = Number(document.getElementById("building5").value);
+                                array1[5] = parseInt(document.getElementById("building6").value);
+
+                                //Loops around array1 to find the tallest building and adding it to array2
+                                for (i = 0; i <= array1.length; i++) { 
+                                    if (tallest < array1[i]) { 
+                                        tallest=array1[i];
+                                        array2.push(array1[i]); 
+                                    } 
+                                } 
+                                displayResults(); 
+                            } 
+                            //Display results in array2
+                            function displayResults() {
+                                document.getElementById("output").innerHTML="Only these building(s) can see the sunset: "
+                                + array2; 
+                            }
 
 
                     </code>

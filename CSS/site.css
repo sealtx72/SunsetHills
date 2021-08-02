@@ -9,27 +9,29 @@ body {
 }
 
 .bgwindow {
-   
+
     background-color: linear-gradient(to right, #fffefe, #cde6ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
- a {
-     color: #525252
- }
 
- a:hover {
-     color: rgb(102, 102, 102);
- }
+a {
+    color: #525252
+}
 
- .bginput {
-     background-color: #eeeeee;
- }
+a:hover {
+    color: rgb(102, 102, 102);
+}
+
+.bginput {
+    background-color: #eeeeee;
+}
 
 .bgnav {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
+
 .bgnav2 {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -46,9 +48,11 @@ body {
 .cblue {
     color: rgb(0, 114, 221);
 }
+
 .sunset {
     color: hsl(37, 100%, 50%);
 }
+
 .hills {
     color: rgb(0, 89, 255);
 }
